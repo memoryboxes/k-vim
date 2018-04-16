@@ -147,6 +147,7 @@ Plug 'tomasr/molokai'
 Plug 'scrooloose/nerdtree' | Plug 'jistr/vim-nerdtree-tabs'
 " ctrlspace
 Plug 'vim-ctrlspace/vim-ctrlspace'
+let g:CtrlSpaceDefaultMappingKey = "<C-]>"
 " tagbar
 Plug 'majutsushi/tagbar'
 
