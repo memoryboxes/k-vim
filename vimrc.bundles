@@ -140,6 +140,7 @@ Plug 'altercation/vim-colors-solarized'
 " molokai
 " 主题 molokai
 Plug 'tomasr/molokai'
+Plug 'pR0Ps/molokai-dark'
 
 
 " nav
