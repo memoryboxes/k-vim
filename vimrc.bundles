@@ -140,6 +140,7 @@ Plug 'altercation/vim-colors-solarized'
 " molokai
 " 主题 molokai
 Plug 'tomasr/molokai'
+Plug 'pR0Ps/molokai-dark'
 
 
 " nav
@@ -147,6 +148,7 @@ Plug 'tomasr/molokai'
 Plug 'scrooloose/nerdtree' | Plug 'jistr/vim-nerdtree-tabs'
 " ctrlspace
 Plug 'vim-ctrlspace/vim-ctrlspace'
+let g:CtrlSpaceDefaultMappingKey = "<C-]>"
 " tagbar
 Plug 'majutsushi/tagbar'
 
@@ -891,5 +893,27 @@ endif
     " vnoremap <silent> <leader>es :EsformatterVisual<CR>
 
 " }}}
+
+
+" Plug 'evanmiller/nginx-vim-syntax'
+
+" pydoc
+Plug 'pydoc.vim'
+
+" 画图
+Plug 'DrawIt'
+
+" 纵向编辑
+Plug 'VisIncr'
+
+" 指定范围批量替换
+Plug 'vis'
+
+" 文字搜索,ack
+Plug 'mileszs/ack.vim'
+Plug 'rking/ag.vim'
+
+" table绘制
+Plug 'dhruvasagar/vim-table-mode'
 
 "------------------------------------------- end of configs --------------------------------------------
