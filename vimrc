@@ -174,6 +174,10 @@ set ignorecase
 " 有一个或以上大写字母时仍大小写敏感
 set smartcase
 
+" leader+s 高亮不跳转
+set hls
+nmap <Leader>m :let @/=expand('<cword>')<cr>
+
 " 代码折叠
 set foldenable
 " 折叠方法
