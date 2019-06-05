@@ -443,7 +443,7 @@ nnoremap <silent> # #zz
 nnoremap <silent> g* g*zz
 
 " 去掉搜索高亮
-noremap <silent><leader>/ :nohls<CR>
+" noremap <silent><leader>/ :nohls<CR>
 
 " switch # *
 nnoremap # *
